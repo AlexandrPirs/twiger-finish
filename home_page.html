@@ -35,7 +35,7 @@
 
 	<!-- Здесь пишем код -->
 	<!-- header -->
-	<header class="main-header">
+	<header class="main-header" id="main-header">
 		<div class="container">
 			<div class="row">
 				<!-- desktop-menu -->
@@ -101,20 +101,188 @@
 						</div>
 
 						<div class="search-button">
-						<button id="button" class="button">начать поиск</button>
+							<button id="button" class="button">начать поиск</button>
 						</div>
 					</form>
 				</div>
 			</div>
 		</div>
 	</header>
-	
 
-	<div class="hidden"></div>
+	<section class="recommend">
+		<div class="container">
+			<div class="row">
+				<div class="top-title-line">
+					<h2>Рекомендовано нами</h2>
+					<a href="#">Смотреть все <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+				</div>
 
-	<div class="loader">
-		<div class="loader_inner"></div>
-	</div>
+				<div class="recommend-content">
+					<div class="col-md-3 content-item">
+						<div class="banner-item" onclick="location.href='#';">
+							<img src="img/banner-1.png" alt="">
+							<h3>Интерьер</h3>
+							<span>Подари стильный предмет</span>
+						</div>
+					</div>
+
+					<div class="col-md-3 content-item">
+						<div class="banner-item" onclick="location.href='#';">
+							<img src="img/banner-2.png" alt="">
+							<h3>Игроманам</h3>
+							<span>Подари массу впечатлений</span>
+						</div>
+					</div>
+
+					<div class="col-md-6 content-item">
+						<div class="banner-item-3" onclick="location.href='#';">
+							<h3>Gingeany</h3>
+							<p>Она сделает все,<br>
+								ради такого подарка<br>
+								<small>Комплект для ценителей</small></p>
+							</div>
+						</div>
+						
+						<div class="col-md-3 content-item">
+							<div class="banner-item" onclick="location.href='#';">
+								<img src="img/banner-4.png" alt="">
+								<h3>Влюбленным</h3>
+								<span>Удиви свою вторую половинку своей оригенальностью</span>
+							</div>
+						</div>
+
+						<div class="col-md-3 content-item">
+							<div class="banner-item-5" onclick="location.href='#';">
+								<h3>Новый проект<br>от Индивида</h3>
+							</div>
+
+							<div class="banner-item-6" onclick="location.href='#';">
+								<h3>Удиви подарком</h3>
+							</div>
+						</div>
+
+						<div class="col-md-3 content-item">
+							<div class="banner-item" onclick="location.href='#';">
+								<img src="img/banner-7.png" alt="">
+								<h3>Спортсменам</h3>
+								<span>Что может быть лучше уникальных кроссовок</span>
+							</div>
+						</div>
+
+						<div class="col-md-3 content-item">
+							<div class="banner-item" onclick="location.href='#';">
+								<img src="img/banner-8.png" alt="">
+								<h3>Дизайнерам</h3>
+								<span>Яркие очки, необычные кружки или чайник в виде пароварки</span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="special-offer">
+			<div class="container">
+				<div class="row">
+					<div class="top-title-line">
+						<h2>Спецпредложения</h2>
+						<a href="#">Смотреть все <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+					</div>
+
+					<div class="special-offer-content">
+						<div class="content-item">
+							<h2>Школа экстримального вождения</h2>
+							<p>Получая сертификат на специальный курс, вы также можете<br>
+								пригласить своих друзей принять участие в тест-драйве</p>
+								<a href="#" class="button">Узнать подробнее <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+							</div>
+
+							<div class="content-item">
+								<h2>Школа экстримального вождения</h2>
+								<p>Получая сертификат на специальный курс, вы также можете<br>
+									пригласить своих друзей принять участие в тест-драйве</p>
+									<a href="#" class="button">Узнать подробнее <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+								</div>
+
+								<div class="content-item">
+									<h2>Школа экстримального вождения</h2>
+									<p>Получая сертификат на специальный курс, вы также можете<br>
+										пригласить своих друзей принять участие в тест-драйве</p>
+										<a href="#" class="button">Узнать подробнее <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+									</div>
+
+									<div class="content-item-footer">
+										<p>Еще более <span>25 приключений</span><br>и приятных <span>подарков</span></p>
+										<a href="#">смотреть все</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="footer-banner">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6">
+									<h1>Новый подход к выбору подарка</h1>
+									<p>Каждый из нас задавался вопросом, что подарить любимому человеку, 
+										другу или родственнику. Но как же ответить на этот вопрос? </p>
+										<p>И в самом деле, какой он, лучший подарок? Конечно, в первую очередь, это зависит от того, кому он будет подарен.  Если вы выбираете хороший подарок для мужчины, то, без сомнения, лучшим для него станет тот выбор, который подчеркнет его мужественность и состоятельность, как личности.</p>
+										<p>Кроме того, мужчин трогает уважение их привычек, вкусов и увлечений. Ваш избранник тяготеет к охоте? Вот удобный подстаканник под охотничью кружку, вот гобелен, изображающий охоту на зайцев. Барометр или компас с изображением сцен охоты, чем не настоящий презент для увлеченного охотой человека. В нашем интернет магазине представлен большой выбор авторских ножей, а для любителей огнестрельного оружия в масштабе 1:3 модели винтовой и пистолетов. Ювелирные телефоны и ноутбуки с кожей вы можете заказать на особые мероприятия и юбилеи.</p>
+									</div>
+
+									<div class="col-md-6">
+										<img src="img/footer-banner-bg.png" alt="">
+									</div>
+								</div>
+							</div>
+						</section>
+
+
+						<footer>
+							<div class="container">
+								<div class="row">
+									<div class="footer-logo col-md-3">
+										<img src="img/logo.png" alt="">
+										<span>© 2016 Каталог подарков “Твигер”.<br>Все права защищены.</span>
+									</div>
+
+									<div class="footer-nav col-md-6">
+										<div class="footer-nav-item">
+											<a href="#">О нас</a>
+											<a href="#">Акции</a>
+											<a href="#">Партнерам</a>
+										</div>
+										<div class="footer-nav-item">
+											<a href="#">Реклама</a>
+											<a href="#">Контакты</a>
+											<a href="#">Блог</a>
+										</div>
+										<div class="footer-nav-item">
+											<a href="#">Задать вопрос</a>
+											<a href="#">Пользовательское соглашение</a>
+											<a href="#">Юредическим лицам</a>
+										</div>
+									</div>
+
+									<div class="footer-social col-md-3">
+										<p>Следите за новостями<br>в наших соцсетях:</p>
+										<a href="" class="facebook"></a>
+										<a href="" class="vkontakte"></a>
+										<a href="" class="instagram"></a>
+									</div>
+								</div>
+							</div>
+						</footer>
+
+
+						<div class="hidden"></div>
+
+						<div class="loader">
+							<div class="loader_inner"></div>
+						</div>
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>

@@ -2,7 +2,9 @@ $(function() {
 
 
 	$("#button").click(function(){
-		$(".search-content").slideUp()
+		$(".dropdown").slideUp()
+		$(".happy-day").slideUp()
+		// $("#button").hide()
 	});
 
 	$(document).ready(function() {
