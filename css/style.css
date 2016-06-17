@@ -150,6 +150,8 @@ body {
 }
 .main-header .desktop-menu .navbar-like a:hover {
 	text-decoration: none;
+	color: #976dcf;
+	border-bottom: 1px dashed #976dcf;
 }
 /*-------------------------- mobile-menu*/
 .main-header .mobile-menu {
@@ -475,6 +477,21 @@ body {
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 }
+.recommend .recommend-content .banner-item .like-img {
+	position: absolute;
+	right: 15px;
+	top: 190px;
+	width: 22px;
+	height: 20px;
+	background-image: url("../img/like_1.png");
+	background-repeat: no-repeat;
+	-webkit-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
+}
+.recommend .recommend-content .banner-item:hover .like-img {
+	background-image: url("../img/like_1_h.png");
+}
 .recommend .recommend-content .banner-item img {
 	width: 100%;
 	max-height: 230px;
@@ -534,6 +551,21 @@ body {
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 }
+.recommend .recommend-content .banner-item-3 .like-img {
+	position: absolute;
+	right: 15px;
+	top: 290px;
+	width: 22px;
+	height: 20px;
+	background-image: url("../img/like_1.png");
+	background-repeat: no-repeat;
+	-webkit-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
+}
+.recommend .recommend-content .banner-item-3:hover .like-img {
+	background-image: url("../img/like_1_h.png");
+}
 .recommend .recommend-content .banner-item-3 h3 {
 	font-size: 20px;
 	font-family: "HelveticaNeueCyr-Bold";
@@ -579,6 +611,21 @@ body {
 	font-style: normal;
 	color: #fff;
 }
+.recommend .recommend-content .banner-item-5 .like-img {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	width: 22px;
+	height: 20px;
+	background-image: url("../img/like_1.png");
+	background-repeat: no-repeat;
+	-webkit-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
+}
+.recommend .recommend-content .banner-item-5:hover .like-img {
+	background-image: url("../img/like_1_h.png");
+}
 .recommend .recommend-content .banner-item-6 {
 	position: relative;
 	margin-bottom: 20px;
@@ -599,6 +646,21 @@ body {
 	font-style: normal;
 	color: #000;
 	text-align: center;
+}
+.recommend .recommend-content .banner-item-6 .like-img {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	width: 22px;
+	height: 20px;
+	background-image: url("../img/like_1.png");
+	background-repeat: no-repeat;
+	-webkit-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
+}
+.recommend .recommend-content .banner-item-6:hover .like-img {
+	background-image: url("../img/like_1_h.png");
 }
 .recommend .recommend-content .banner-item-3:hover {
 	-moz-border-radius: 3px;

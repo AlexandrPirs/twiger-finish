@@ -74,18 +74,16 @@ body {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	min-height: 600px;
-	background-image: url("../img/header-bg.jpg");
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
+	max-height: 300px;
+	background-color: #382252;
 }
 /*-------------------------- desktop-menu*/
 .main-header .desktop-menu {
 	display: block;
 	position: relative;
-	height: 75px;
+	height: 100px;
 	padding-top: 15px;
+	background-color: #442964;
 }
 .main-header .desktop-menu .navbar-logo {
 	float: left;
@@ -165,8 +163,8 @@ body {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	margin-top: 100px;
-	min-height: 350px;
+	margin-top: 20px;
+	min-height: 100%;
 }
 .main-header .header-content form {
 	position: relative;
